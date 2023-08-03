@@ -1,13 +1,164 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainDiv{
+  background-image: url("https://assets.turbologo.com/blog/en/2021/06/28083918/JBL-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.nav-button{
+  font-size: larger !important;
+  font-weight: 600 !important;
+}
+
+.orange{
+  background-color: #ff591b !important;
+  height: 45px;
+  width: 140px;
+  border-radius: 12px !important;
+}
+
+.orangeColor{
+  color: #ff591b;
+}
+
+.grayColor{
+  color: #564b4b !important;
+}
+
+.margin-top-60px{
+  margin-top: 60px;
+}
+
+.margin-top-30px{
+  margin-top: 30px !important;
+}
+
+.center {
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+  height: 80vh;
+  position: relative;
+}
+
+.center-inside{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.section1Header1{
+  color: black;
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.section2{
+  background-color: rgb(229 223 223);;
+}
+
+.section2MainConatiner{
+  display: flex;
+}
+
+.section2ChildContainer{
+  width: 50%;
+}
+
+.section2MenImage{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section2ChildContainer h1{
+  font-size: 55px;
+  letter-spacing: 1px;
+}
+
+.section3{
+  /* height: 100vh; */
+  padding-bottom: 50px !important;
+  background-color: #e0e4fc;
+}
+
+.section3 h1{
+  font-size: 90px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.section3 .orange{
+  display: block;
+  margin: auto;
+}
+
+.displayFlex{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+}
+
+.cardBody{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards{
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #e0e4fc;
+  font-weight: 600;
+  font-size: 26px;
+  width: 20%;
+  /* margin: 0 10px; */
+  padding: 20px 40px;
+}
+
+.section4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.information{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.imageSectionFooter{
+  width: 40%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
